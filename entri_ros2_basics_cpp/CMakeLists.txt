@@ -18,7 +18,7 @@ ament_target_dependencies(hello_node rclcpp)
 
 install(TARGETS
 hello_node
-ESTINATION lib/${PROJECT_NAME})
+DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
