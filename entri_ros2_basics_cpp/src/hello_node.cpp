@@ -31,6 +31,8 @@ private:
   // TODO: Define the timer_callback function here
   void timer_callback(){
     RCLCPP_INFO(this->get_logger(),"Hello, World!");
+  }
+  
   rclcpp::TimerBase::SharedPtr timer_;
 };
 
